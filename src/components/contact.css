@@ -1,0 +1,224 @@
+.contactbackgroundimg{
+  background-size: cover;
+  background-position: center;
+}
+.contactimg img{
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+    filter: brightness(30%);
+}
+.contact-form-container {
+  justify-items: center;
+  width: 100%;
+  align-items: center;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+.contact-form-box {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 0%;
+  box-sizing: border-box;
+}
+.contact-form-box h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1.5em;
+  color: #333;
+}
+.form-group {
+  margin-bottom: 15px;
+}
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+}
+.form-group input,
+.form-group textarea {
+  width: 80%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1em;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+@media screen and (max-width:900px){
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+  }
+}
+.form-group input:focus,
+.form-group textarea:focus {
+  border-color: #3843D0;
+  outline: none;
+}
+textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+.error {
+  color: red;
+  font-size: 0.85em;
+  margin-top: 5px;
+}
+.success-message {
+  color: green;
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: 20px;
+}
+button {
+  width: 30%;
+  padding: 5px;
+  background-color:#3843D0;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.contactcontact{
+  width: 100%;
+}
+.contactcontainer{
+  display: flex;
+}
+@media screen and (max-width:900px){
+  .contactcontainer .contactimg{
+    display: none;
+  }
+}
+.contactme{
+  font-family: 'Yeseva One', cursive;
+  font-size: 36px;
+}
+.placeholder{
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+}
+.contactpara{
+  font-family: 'Poppins', sans-serif;
+  font-size: 24px;
+}
+@media screen and (max-width:900px){
+  .contactpara{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+  }
+}
+.contacttopic{
+  font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    color: #3843D0;
+}
+@media screen and (max-width:800px){
+  .contact-form-container {
+    justify-items: center;
+    min-width: 70vb;
+    align-items: center;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+  }
+  }
+  @media screen and (max-width:600px){
+    .contact-form-container {
+      max-width: 50vb;
+      height: 100vh;
+    }
+    }
+    .form-group input{
+      border: 2px solid black;
+      line-height: 25px;
+      width: 60vb;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 20px;
+    }
+    form {
+      column-gap: 20px;
+    }
+    .form-group .msg{
+      border: 2px solid black;
+      line-height: 25px;
+      width: 60vb;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 20px;
+      height: 150px;
+    }
+    .submit input{
+      background-color: #3843D0;
+      color: white;
+      border: none;
+      font-size:larger;
+      max-width: 200px;
+    }
+    @media screen and (max-width:500px){
+      .form-group input{
+        border: 2px solid black;
+        line-height: 25px;
+        width: 40vb;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+      }
+      form {
+        column-gap: 20px;
+      }
+      .form-group .msg{
+        border: 2px solid black;
+        line-height: 25px;
+        width: 40vb;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+        height: 150px;
+      }
+    }
+    @media screen and (max-width:1000px){
+      .form-group input{
+        border: 2px solid black;
+        line-height: 25px;
+        width: 40vb;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+      }
+      form {
+        column-gap: 20px;
+      }
+      .form-group .msg{
+        border: 2px solid black;
+        line-height: 25px;
+        width: 40vb;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+        height: 150px;
+      }
+      .contactimg img{
+        display: none;
+      }
+    }

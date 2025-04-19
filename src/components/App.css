@@ -1,0 +1,408 @@
+.rakesh-image img{
+    max-width: 1000px; 
+    max-height: 500px;
+}
+.rakesh-image p{
+    text-align: center;
+    line-height: 20px;
+}
+.img1{
+    background-image: url(image/SL-072622-51930-21.jpg);
+    background-size: cover;
+    background-position: center;
+   
+}
+@media screen and (max-width:800px){
+    .rakesh-image img{
+        max-width: 480px; 
+        height: 250;
+        padding-right: 20px;
+    }
+}
+@media screen and (max-width:500px){
+    .rakesh-image img{
+        max-width: 300px; 
+        height: 150;
+    }
+    section{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        padding-left:40px;
+    }
+    .footer{
+        padding-left: 20px;
+    }
+
+}
+.buttoncv{
+    width: 162px;
+    height: 48px;
+    color: white;
+    font-size: medium;
+    font-weight: 500;
+    padding: 10px 20px;
+    align-items: center;
+    border:2px solid #3843D0;
+    border-radius: 10px; 
+    background-color: #3843D0;
+}
+.buttoncv:hover{
+    background-color: #1621b8;
+}
+.abouttopic{
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #3843D0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+.aboutimg img{
+width: 400px;
+height: 300px;
+float: left;
+}
+.row{
+    display: flex;
+}
+.col-md6{
+width: 500px;
+}
+.col-md16{
+    width: 500px;
+    }
+.aboutpara{
+    margin-top: 0px;
+    float: right;
+    width: 100%;
+    padding-left: 50px;
+}
+@media screen and (max-width:900px){
+    .aboutpara{
+        margin-top: 0;
+        min-width:100%;
+        float: right;   
+    }
+}
+.row{
+    justify-content: center;
+       align-items: center;
+}
+@media screen and (max-width:900px){
+    .row{
+       display: grid;
+       width: 100%;
+    }
+}
+.cards{
+    display: flex;
+   justify-content: center;
+   column-gap: 50px;
+}
+.card1{
+    width: 528px;
+    height: 420px;
+    border-radius: 10px;
+background: #FFF;
+box-shadow: 2px 4px 25px 0px rgba(0, 0, 0, 0.10);
+}
+.card2{
+    width: 528px;
+    height: 420px;
+    border-radius: 10px;
+background: #FFF;
+box-shadow: 2px 4px 25px 0px rgba(0, 0, 0, 0.10);
+}
+.card3{
+    width: 528px;
+    height: 420px;
+    border-radius: 10px;
+background: #FFF;
+box-shadow: 2px 4px 25px 0px rgba(0, 0, 0, 0.10);
+}
+.card3 img{
+    width: 350px;
+}
+@media screen and (max-width:500px){
+    .cards{
+        padding-left: 60px;    
+    }
+    
+}
+@media screen and (max-width:900px){
+    .cards{
+       display: grid;
+       justify-items: center;
+       align-items: center;
+    }
+    .card1{
+        max-width: 80%;
+        height: 388px;
+        border-radius: 10px;
+    background: #FFF;
+    box-shadow: 2px 4px 25px 0px rgba(0, 0, 0, 0.10);
+    }
+    .card2{
+        margin-top: 30px;
+        max-width: 80%;
+        height: 430px;
+        border-radius: 10px;
+    background: #FFF;
+    box-shadow: 2px 4px 25px 0px rgba(0, 0, 0, 0.10);
+    }
+    .card3{
+        margin-top: 30px;
+        max-width: 80%;
+        height: 388px;
+        border-radius: 10px;
+    background: #FFF;
+    box-shadow: 2px 4px 25px 0px rgba(0, 0, 0, 0.10);
+    }
+}
+
+.cards1{
+    max-width: 85%;
+    height: 300px;
+    flex-shrink: 0;
+    border-radius: 20px;
+background: #FFF;
+box-shadow: 2px 4px 25px 0px rgba(0, 0, 0, 0.10);
+}
+.row2{
+    display: flex;
+    max-width: 80%;
+    height: 400px;
+}
+.cards1 p{
+    margin-top: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width:900px){
+    .cards1 p{
+        margin-top: 0%;
+    }
+    .cards1{ height: 400px;
+    min-width: 90%;}
+    .row2{
+        display: grid;
+        width: 100%;
+        height: 350px;
+    }
+    
+}
+.cardimg img{
+    width: 100%;
+    height: 300px;
+    margin-left: 0px;
+}
+.lakma{
+    color: #FF2977;
+    font-family: "Yeseva One";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.row{
+    width: 90%;
+}
+.lakma2{
+    width: 287px;
+    color: rgba(0, 0, 0, 0.75);
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 1.2px;
+}
+.cardtopic1{
+    font-family: "Yeseva One";
+    font-size: 35px;
+    color: #FFB800;
+    text-decoration: none;
+  }
+  .subtopic1{
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+  }
+  @media screen and (max-width:900px){
+    .cardtopic1{
+        top: 20px;
+        font-family: "Yeseva One";
+        font-size: 30px;
+        color: #FFB800;
+        text-decoration: none;
+    }
+    .subtopic1{
+        color: #000000;
+        font-family: 'Poppins', sans-serif;
+        font-size: 15px;
+      }
+}
+
+.cardtopic2{
+    font-family: "Yeseva One";
+    font-size: 35px;
+    color: #0077B6;
+    text-decoration: none;
+  }
+  .subtopic2{
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+  }
+  @media screen and (max-width:900px){
+    .cardtopic2{
+        padding-top: 20px;
+        font-family: "Yeseva One";
+        font-size: 30px;
+        color: #0077B6;
+        text-decoration: none;
+    }
+    .subtopic2{
+        color: #000000;
+        font-family: 'Poppins', sans-serif;
+        font-size: 15px;
+      }
+}
+
+.cardtopic3{
+    font-family: "Yeseva One";
+    font-size: 35px;
+    color: #0077B6;
+    text-decoration: none;
+  }
+  .subtopic3{
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+  }
+  @media screen and (max-width:900px){
+    .cardtopic3{
+        padding-top: 20px;
+        font-family: "Yeseva One";
+        font-size: 30px;
+        color: #0077B6;
+        text-decoration: none;
+    }
+    .subtopic3{
+        color: #000000;
+        font-family: 'Poppins', sans-serif;
+        font-size: 15px;
+      }
+}
+
+.cardtopic4{
+    font-family: "Yeseva One";
+    font-size: 35px;
+    color: #0077B6;
+    text-decoration: none;
+  }
+  .subtopic4{
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+  }
+  @media screen and (max-width:900px){
+    .cardtopic4{
+        padding-top: 20px;
+        font-family:"Yeseva One";
+        font-size: 30px;
+        color: #0077B6;
+        text-decoration: none;
+    }
+    .subtopic4{
+        color: #000000;
+        font-family: 'Poppins', sans-serif;
+        font-size: 15px;
+      }
+}
+.footer{
+    display: flex;
+min-width: 100%;
+height: 350px;
+flex-shrink: 0;
+background: #EBECFA;
+justify-content: space-between;
+align-items: center;
+}
+@media screen and (max-width:500px){
+    .footer{
+        min-width: 100%;
+    }}
+@media screen and (max-width:1000px){
+    .footer{
+        display: grid;
+        width: 100%;
+        height: auto;
+        flex-shrink: 0;
+        background: #EBECFA;
+        align-items: center;
+        justify-content: center;
+        }
+    }
+    .right{
+        display: flex;width: 397px;height: 298px;padding: 11.641px 20.548px 11.641px 20.936px;justify-content: center;align-items: center;flex-shrink: 0;
+    }
+    .left{
+        display: flex;width: 397px;height: 298px;padding: 14.357px 38.934px 13.969px 39.157px;justify-content: center;align-items: center;flex-shrink: 0;
+    }
+    .footer img{
+        width: 300px;
+    }
+
+    .foottopic1{
+        color: rgba(0, 0, 0, 0.85);
+        font-family: Poppins;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+    .foottopic2{
+        color: rgba(0, 0, 0, 0.85);font-family: "Yeseva One";font-size: 36px;font-style: normal;font-weight: 400;line-height: normal;
+    }
+    .logo2{
+        min-width: 90%;
+    }
+    .logo2 p{
+        color: var(--color-Blue-Dark, #2A329C);
+        font-family: "Yeseva One";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;  
+        margin-top: 5px;    
+    }
+    .footlogo{
+        display: flex;
+    }
+    .footlogo a{
+        color: black;
+        text-decoration: none;
+    }
+    .footicons{
+        margin-top: 5px; 
+        gap: 10px;
+    }
+ .insta:hover{
+    color: #3843D0;
+ } 
+ .link:hover{
+    color: #3843D0;
+ } 
+ .dribble:hover{
+    color: #3843D0;
+ } 
+ .beh:hover{
+    color: #3843D0;
+ }       
+
+    
